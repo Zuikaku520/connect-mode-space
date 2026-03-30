@@ -1,0 +1,149 @@
+Connect Mode Space - Output Summary
+
+1. Overall conclusion
+
+Across all output logs, the results form a consistent chain of evidence:
+
+- Connection mode cannot be ignored.
+- Connection mode is not reducible to weight-only adjustment.
+- Higher-order combinations can push the system into new dynamical regions.
+- Synergy is not uniform; it emerges only in localized parameter windows.
+- Delayed + Recurrent currently shows the clearest stable synergy hotspot structure.
+
+In short:
+connection mode behaves like an independent dynamical variable, not just a small detail on top of weights.
+
+2. Stage-by-stage summary
+
+[scan_modes.py]
+Purpose:
+Minimal verification of whether different connection modes change output dynamics.
+
+Main result:
+Delayed and Gated modes significantly changed temporal metrics such as peak_time, half_life, and undershoot.
+This established that “connection mode” is a measurable computational variable rather than just a metaphor.
+
+Key takeaway:
+Connection mode cannot be ignored.
+
+[scan_modes_v2.py]
+Purpose:
+Test whether mode-induced behavior can be approximated by WeightOnly tuning.
+
+Main result:
+No. Delayed, Recurrent, and Gated modes remained far from the WeightOnly baseline in feature space.
+This showed that connection mode is not just another way of changing weights.
+
+Key takeaway:
+Connection mode is not reducible to weight-only adjustment.
+
+[scan_modes_v3.py]
+Purpose:
+Introduce combined modes and test whether combinations open new dynamical regions.
+
+Main result:
+Combined modes such as Delayed+Recurrent, Delayed+Gated, Recurrent+Gated, and triple combinations often moved the system farther from WeightOnly than single modes did.
+
+Key takeaway:
+Connection modes begin to form a larger mode space rather than a few isolated tricks.
+
+[scan_modes_v4.py]
+Purpose:
+Test robustness under repeated noisy runs.
+
+Main result:
+The key differences remained visible under repeated runs with noise.
+This showed that the observed effects are not one-off simulation accidents.
+
+Key takeaway:
+Connection-mode effects are robust under repeated noisy simulation.
+
+[scan_modes_v6.py]
+Purpose:
+Introduce synergy index, ablation, and incremental contribution analysis.
+
+Main result:
+Some combinations remained parent-dominated, while others showed positive synergy and moved farther away from lower-order behavior.
+This established that combinations are not all equivalent.
+
+Key takeaway:
+Some mode combinations behave like mixtures, while others create genuinely new dynamical forms.
+
+[scan_modes_v7.py]
+Purpose:
+Map two-dimensional parameter planes and check whether synergy is structured across parameter space.
+
+Main result:
+Different mode planes showed different geometries.
+Delayed + Recurrent showed the strongest synergy regions.
+Delayed + Gated showed conditional synergy.
+Recurrent + Gated behaved more like parent-mixing or transition regions.
+
+Key takeaway:
+Mode space has region structure, not just isolated exceptional points.
+
+[scan_modes_v8.py]
+Purpose:
+Refine local hotspot regions and compare them against a control region.
+
+Main result:
+Hotspot A and Hotspot B both showed stable local synergy windows.
+Control region C did not show comparable strong synergy.
+
+Key numbers:
+- Hotspot A: strong positive local synergy, multiple points with synergy > 1, and several with synergy > 2.
+- Hotspot B: also clearly positive, though somewhat weaker and more diffuse than A.
+- Control C: mean synergy approximately near zero, with no strong hotspot behavior.
+
+Key takeaway:
+The strongest synergy findings are not isolated anomalies.
+They form local windows in parameter space.
+
+3. Strongest current interpretation
+
+Current results support the following picture:
+
+- There exists a baseline-like regime near WeightOnly / common-line behavior.
+- Some mode combinations remain close to a parent mode.
+- Some combinations enter mid-shift regions.
+- Some combinations enter far-shift regions.
+- Certain localized parameter windows produce strong synergy and push the system into distinctly new dynamical regions.
+
+This suggests that connection modes and their combinations form a structured dynamical space:
+a connect mode space.
+
+4. Best current example
+
+The strongest current example is:
+
+Delayed + Recurrent
+
+This pairing currently shows the clearest stable synergy hotspot structure.
+The hotspot regions are not random, because nearby control regions do not show the same strong synergy pattern.
+
+5. Important boundary statements
+
+These results do NOT prove:
+
+- biological proof
+- consciousness
+- that real brains use these exact categories
+- that connection mode alone explains everything
+
+What they DO support is:
+
+- a computational hypothesis
+- a progressively strengthened simulation result
+- the possibility that connection mode is a missing or under-modeled layer in current computational thinking
+
+6. Final compressed summary
+
+The outputs now support a staged conclusion:
+
+1. Connection mode changes system dynamics.
+2. These changes cannot be absorbed by weight-only tuning.
+3. Higher-order combinations open new dynamical regions.
+4. Synergy is localized rather than universal.
+5. Stable local synergy windows exist, especially in Delayed + Recurrent.
+
+This is the current strongest summary of the project.
