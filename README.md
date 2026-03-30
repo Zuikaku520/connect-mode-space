@@ -28,7 +28,7 @@ It is not a biological proof.
 It is not a proof of consciousness.
 It is currently a simulation-based hypothesis with progressively stronger empirical support.
 
-##How to use？
+## How to use？
 
 ```pip install -r requirements.txt```
 
