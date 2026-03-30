@@ -15,11 +15,13 @@ This repository explores whether a similar under-modeling may exist in neural-st
 
 
 ## Current Findings
+
 - Connection mode cannot be ignored.
 - Connection mode is not reducible to weight-only adjustment.
 - Higher-order combinations can push the system into new dynamical regions.
-- Synergy is not uniform; it emerges in localized windows.
-- In current experiments, Delayed + Recurrent shows the clearest synergy hotspots.
+- Synergy is not uniform; it emerges only in localized parameter windows.
+- In current experiments, `Delayed + Recurrent` shows the clearest stable synergy hotspots.
+- Hotspot regions and control regions exhibit clearly different synergy statistics.
 
 ## Project Status
 
@@ -28,12 +30,23 @@ It is not a biological proof.
 It is not a proof of consciousness.
 It is currently a simulation-based hypothesis with progressively stronger empirical support.
 
+This repository does not claim biological proof or proof of consciousness.
+It currently presents a computational hypothesis supported by progressively stronger simulation evidence.
+
 ## How to use？
 
 ```pip install -r requirements.txt```
 
 ```python src/scan_modes_v8.py```
 
+## Experiment Evolution
+- `scan_modes.py`: minimal mode verification
+- `scan_modes_v2.py`: weight-only replacement testing
+- `scan_modes_v3.py`: combined modes and early mode-space analysis
+- `scan_modes_v4.py`: robustness under repeated noisy runs
+- `scan_modes_v6.py`: synergy index, ablation, and incremental contribution
+- `scan_modes_v7.py`: 2D parameter-space mapping
+- `scan_modes_v8.py`: local hotspot refinement
 
 # Connect Mode Space
 ### 从 common line 到 connection mode dynamics
