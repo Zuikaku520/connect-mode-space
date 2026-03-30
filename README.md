@@ -1,6 +1,8 @@
 # Connect Mode Space
 ### From common line to connection mode dynamics
 
+## English Summary
+
 This repository explores the hypothesis that connection mode should be treated as an independent dynamical variable in neural computation, rather than being reduced to a common weighted line.
 
 Most neural models focus on nodes and weights.
@@ -60,8 +62,9 @@ It currently presents a computational hypothesis supported by progressively stro
 | `scan_modes_v7.py` | 2D mode-space mapping |
 | `scan_modes_v8.py` | Local hotspot refinement |
 
-# Connect Mode Space
-### 从 common line 到 connection mode dynamics
+---
+
+## 中文说明
 
 ## 项目简介
 本仓库探索一个假设：
