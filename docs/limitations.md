@@ -7,3 +7,7 @@
 - The current results support a modeling hypothesis, not a final theory.
 - Parameter coverage is still incomplete.
 - Some regions in mode space remain sparse or missing.
+
+- Not all scanned parameter points succeed or produce valid feature vectors.
+- Some local maps therefore contain sparse missing points.
+- Current hotspot interpretation should be understood as a structured computational finding, not yet a complete continuous map.

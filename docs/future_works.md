@@ -1,17 +1,17 @@
 # Future Work
 
 ## Immediate
-- Expand mode-space coverage
-- Fill missing parameter regions
-- Improve repeated-run statistics
-- Improve local hotspot refinement
+- Expand local hotspot scans
+- Compare hotspot windows against more control regions
+- Improve coverage of missing parameter points
+- Quantify window boundaries more explicitly
 
-## Medium-term
-- Explore triple-mode synergy maps
-- Build better mode fingerprints
-- Study parent-dominated vs synergy-dominated regions
+## Next
+- Build synergy contour maps
+- Compare parent-dominated regions against synergy-dominated regions
+- Formalize transition from near-baseline to high-synergy regions
 
-## Long-term
-- Investigate whether connection mode space can inform cognitive architecture design
-- Explore whether stable mode regions correspond to distinct behavioral styles
-- Develop a formal “connect mode space” framework
+## Longer-term
+- Explore triple-mode local hotspot structure
+- Study whether different mode windows correspond to distinct dynamical styles
+- Investigate implications for cognitive architecture design

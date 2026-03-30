@@ -19,4 +19,10 @@ Instead, it follows a staged computational approach:
 7. Local hotspot scanning
 
 ## Current Direction
-The main current focus is not consciousness itself, but the possibility that connection mode space may be a missing layer in current cognitive architecture research.
+
+The project has moved beyond minimal mode verification.
+
+The current focus is:
+- whether connection mode combinations form a structured space,
+- whether some regions behave like near-baseline continuation,
+- and whether localized synergy windows exist.

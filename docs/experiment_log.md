@@ -1,25 +1,48 @@
-# Experiment Log
+## scan_modes.py
+Question:
+Do different single connection modes change output dynamics?
 
-## v1
-Question: do different connection modes change output dynamics?
-Result: yes.
+Result:
+Yes. Delayed and Gated modes showed strong metric shifts.
 
-## v2
-Question: can weight-only approximate these changes?
-Result: no.
+## scan_modes_v2.py
+Question:
+Can these changes be approximated by weight-only tuning?
 
-## v3
-Question: do combined modes open new dynamical regions?
-Result: yes.
+Result:
+No. Multiple modes remained far from the WeightOnly baseline.
 
-## v4
-Question: are the effects robust under repeated noisy runs?
-Result: mostly yes.
+## scan_modes_v3.py
+Question:
+Do combined modes open new dynamical regions?
 
-## v6
-Question: do higher-order combinations show synergy and structured ablation effects?
-Result: partially yes.
+Result:
+Yes. Combined modes were often farther from WeightOnly than single modes, suggesting the emergence of a mode space.
 
-## v7-v8
-Question: are there localized synergy windows in parameter space?
-Result: yes, especially in Delayed + Recurrent.
+## scan_modes_v4.py
+Question:
+Are the effects robust under repeated noisy runs?
+
+Result:
+Yes. Key differences remained under repeated runs with input noise.
+
+## scan_modes_v6.py
+Question:
+Do combined modes exhibit structured ablation patterns and measurable synergy?
+
+Result:
+Yes. Some combinations remained parent-dominated, while others showed stronger independence and positive synergy.
+
+## scan_modes_v7.py
+Question:
+Does synergy appear uniformly across parameter space?
+
+Result:
+No. Different mode planes showed different structures. Delayed + Recurrent displayed the strongest synergy regions.
+
+## scan_modes_v8.py
+Question:
+Are previously observed synergy hotspots isolated points or stable local windows?
+
+Result:
+Stable local windows were found. Hotspot A and Hotspot B showed strong local synergy, while the control region did not. :contentReference[oaicite:1]{index=1}
