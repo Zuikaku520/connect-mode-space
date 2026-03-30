@@ -3,6 +3,22 @@
 
 ## English Summary
 
+## What this repository does NOT claim
+
+- This is not biological proof.
+- This is not proof of consciousness.
+- This does not claim that real brains use exactly these mode categories.
+- This is currently a computational hypothesis supported by simulation evidence.
+
+## Current strongest result
+
+The strongest current result is the discovery of localized synergy windows in the `Delayed + Recurrent` parameter space.
+
+Local hotspot scans suggest:
+- hotspot regions show stable positive synergy
+- nearby control regions do not show comparable strong synergy
+- the strongest effects are therefore structured, not random anomalies
+
 This repository explores the hypothesis that connection mode should be treated as an independent dynamical variable in neural computation, rather than being reduced to a common weighted line.
 
 Most neural models focus on nodes and weights.
