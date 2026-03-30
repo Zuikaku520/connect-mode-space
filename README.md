@@ -48,6 +48,18 @@ It currently presents a computational hypothesis supported by progressively stro
 - `scan_modes_v7.py`: 2D parameter-space mapping
 - `scan_modes_v8.py`: local hotspot refinement
 
+## Version Index
+
+| File | Main Role |
+|------|-----------|
+| `scan_modes.py` | Minimal single-mode verification |
+| `scan_modes_v2.py` | Weight-only replacement test |
+| `scan_modes_v3.py` | Combined modes and early mode-space analysis |
+| `scan_modes_v4.py` | Robustness under repeated noisy runs |
+| `scan_modes_v6.py` | Synergy index, ablation, incremental contribution |
+| `scan_modes_v7.py` | 2D mode-space mapping |
+| `scan_modes_v8.py` | Local hotspot refinement |
+
 # Connect Mode Space
 ### 从 common line 到 connection mode dynamics
 
