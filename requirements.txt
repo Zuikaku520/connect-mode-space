@@ -1,0 +1,5 @@
+nengo
+numpy
+scipy
+scikit-learn
+matplotlib
