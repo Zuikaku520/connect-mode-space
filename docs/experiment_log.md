@@ -46,3 +46,11 @@ Are previously observed synergy hotspots isolated points or stable local windows
 
 Result:
 Stable local windows were found. Hotspot A and Hotspot B showed strong local synergy, while the control region did not. :contentReference[oaicite:1]{index=1}
+
+## scan_modes_v9.py
+Question:
+Are hotspot regions merely high-value points, or do they have measurable local geometry such as area, connectivity, and boundary structure?
+
+Result:
+Hotspot regions showed not only strong synergy values, but also nontrivial connected-component structure and larger strong-synergy area than control regions.
+This moved the project from “hotspot detection” toward “hotspot geometry quantification.” :contentReference[oaicite:11]{index=11}

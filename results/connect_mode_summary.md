@@ -279,6 +279,87 @@ The result was clear:
 - They form local windows in parameter space.
 - These windows are structured and contrast clearly with control regions.
 
+
+# v9 Summary
+
+## Goal
+Quantify whether previously observed synergy hotspots are not only high-value points, but structured local windows with area, boundary, and connectivity.
+
+## Main Result
+The strongest `Delayed + Recurrent` hotspot regions are not isolated anomalies.
+They show measurable local geometry:
+- elevated mean synergy
+- multiple strong-synergy points
+- connected-component structure
+- clear separation from control regions
+
+## Region Comparison
+
+### HOTSPOT_A
+- mean synergy = 0.925214
+- synergy > 1 count = 7
+- synergy > 2 count = 2
+- max synergy = 2.913064
+- mean distance to WeightOnly = 5.076692
+- connected components (`synergy > 1`): [5, 2]
+
+Interpretation:
+HOTSPOT_A is currently the strongest local synergy window. :contentReference[oaicite:2]{index=2}
+
+### HOTSPOT_B
+- mean synergy = 0.566687
+- synergy > 1 count = 7
+- synergy > 2 count = 2
+- max synergy = 2.373640
+- mean distance to WeightOnly = 4.714980
+- connected components (`synergy > 1`): [3, 1, 1, 1, 1]
+
+Interpretation:
+HOTSPOT_B is also a valid hotspot window, but more fragmented than HOTSPOT_A. :contentReference[oaicite:3]{index=3}
+
+### CONTROL_C1
+- mean synergy = -0.017187
+- synergy > 1 count = 0
+- max synergy = 0.291208
+
+Interpretation:
+No strong local window structure. :contentReference[oaicite:4]{index=4}
+
+### CONTROL_C2
+- mean synergy = -0.025558
+- synergy > 1 count = 0
+- max synergy = 0.742411
+
+Interpretation:
+No strong local window structure. :contentReference[oaicite:5]{index=5}
+
+### CONTROL_C3
+- mean synergy = -1.088492
+- synergy > 1 count = 2
+- connected components (`synergy > 1`): [1, 1]
+
+Interpretation:
+This region contains isolated high points, but not a coherent hotspot window. :contentReference[oaicite:6]{index=6}
+
+## Strongest Peak Points
+
+### HOTSPOT_A peak examples
+- (0.05, 0.99) -> synergy = 2.913064
+- (0.07, 0.99) -> synergy = 2.825418
+- (0.04, 0.999) -> synergy = 1.922662 :contentReference[oaicite:7]{index=7}
+
+### HOTSPOT_B peak examples
+- (0.14, 0.99) -> synergy = 2.373640
+- (0.09, 0.999) -> synergy = 2.077118
+- (0.14, 0.999) -> synergy = 1.751713 :contentReference[oaicite:8]{index=8}
+
+## Interpretation
+v9 strengthens the project’s central claim:
+connect mode space contains not only distant dynamical regions, but also locally structured synergy windows with measurable area and connectivity.
+
+## Current Best Conclusion
+The `Delayed + Recurrent` parameter space contains stable local synergy windows, and these windows differ qualitatively from nearby or alternative control regions. :contentReference[oaicite:9]{index=9}
+
 **Core takeaway:**  
 Connect mode space contains stable local synergy windows.
 

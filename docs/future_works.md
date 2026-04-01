@@ -1,15 +1,14 @@
 # Future Work
 
 ## Immediate
-- Expand local hotspot scans
-- Compare hotspot windows against more control regions
-- Improve coverage of missing parameter points
-- Quantify window boundaries more explicitly
+- refine hotspot boundaries
+- compare hotspot geometry against additional control regions
+- quantify strongest connected-component regions
+- measure whether hotspot windows persist under denser local scans
 
 ## Next
-- Build synergy contour maps
-- Compare parent-dominated regions against synergy-dominated regions
-- Formalize transition from near-baseline to high-synergy regions
+- extend hotspot geometry analysis to triple-mode combinations
+- test whether different hotspot windows correspond to distinct dynamical styles
 
 ## Longer-term
 - Explore triple-mode local hotspot structure

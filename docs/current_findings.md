@@ -19,3 +19,8 @@ Hotspot A and Hotspot B showed stable positive synergy, while Control C did not.
 
 ## 6. The project now supports a "connect mode space" interpretation
 Current results suggest that connection modes and their combinations form a structured dynamical space rather than a small set of isolated tricks.
+
+## 7. Hotspots now show measurable geometry
+The strongest hotspot regions are not only high-synergy points.
+They also show measurable area, connected components, and structured contrast against control regions.
+This strengthens the interpretation that connect mode space contains real local window structure rather than isolated anomalies. :contentReference[oaicite:12]{index=12}

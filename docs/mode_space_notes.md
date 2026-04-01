@@ -14,3 +14,13 @@ Local scans suggest that some parameter neighborhoods contain stable high-synerg
 
 ## Current Best Example
 Delayed + Recurrent currently shows the clearest hotspot structure. :contentReference[oaicite:3]{index=3}
+
+## Hotspot Geometry
+A synergy hotspot should not be defined only by a high peak value.
+It should also be described by:
+- local area
+- connected-component structure
+- edge profile
+- contrast against control regions
+
+Under this definition, HOTSPOT_A is currently the clearest example of a structured local synergy window. :contentReference[oaicite:13]{index=13}
