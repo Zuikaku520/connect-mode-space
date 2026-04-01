@@ -14,10 +14,12 @@
 
 The strongest current result is the discovery of localized synergy windows in the `Delayed + Recurrent` parameter space.
 
-Local hotspot scans suggest:
+Recent local scans suggest:
 - hotspot regions show stable positive synergy
-- nearby control regions do not show comparable strong synergy
-- the strongest effects are therefore structured, not random anomalies
+- hotspot regions contain multiple high-synergy points rather than isolated anomalies
+- hotspot regions exhibit connected local structure
+- control regions do not show comparable strong-window geometry
+This means the current best evidence is no longer just “a few strong points”, but a structured local hotspot window. 
 
 This repository explores the hypothesis that connection mode should be treated as an independent dynamical variable in neural computation, rather than being reduced to a common weighted line.
 
@@ -40,6 +42,8 @@ This repository explores whether a similar under-modeling may exist in neural-st
 - Synergy is not uniform; it emerges only in localized parameter windows.
 - In current experiments, `Delayed + Recurrent` shows the clearest stable synergy hotspots.
 - Hotspot regions and control regions exhibit clearly different synergy statistics.
+- Local synergy hotspots are now quantified not only by peak value, but also by area and connectivity.
+- Hotspot regions and control regions differ not only in strength, but also in geometric structure.
 
 ## Project Status
 
@@ -77,6 +81,7 @@ It currently presents a computational hypothesis supported by progressively stro
 | `scan_modes_v6.py` | Synergy index, ablation, incremental contribution |
 | `scan_modes_v7.py` | 2D mode-space mapping |
 | `scan_modes_v8.py` | Local hotspot refinement |
+| `scan_modes_v9.py` | Quantified hotspot geometry: area, peaks, connected components, edge profiles |
 
 ---
 
