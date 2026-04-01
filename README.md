@@ -14,10 +14,12 @@
 
 The strongest current result is the discovery of localized synergy windows in the `Delayed + Recurrent` parameter space.
 
-Local hotspot scans suggest:
+Recent local scans suggest:
 - hotspot regions show stable positive synergy
-- nearby control regions do not show comparable strong synergy
-- the strongest effects are therefore structured, not random anomalies
+- hotspot regions contain multiple high-synergy points rather than isolated anomalies
+- hotspot regions exhibit connected local structure
+- control regions do not show comparable strong-window geometry
+This means the current best evidence is no longer just “a few strong points”, but a structured local hotspot window. 
 
 This repository explores the hypothesis that connection mode should be treated as an independent dynamical variable in neural computation, rather than being reduced to a common weighted line.
 
