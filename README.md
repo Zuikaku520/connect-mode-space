@@ -40,6 +40,8 @@ This repository explores whether a similar under-modeling may exist in neural-st
 - Synergy is not uniform; it emerges only in localized parameter windows.
 - In current experiments, `Delayed + Recurrent` shows the clearest stable synergy hotspots.
 - Hotspot regions and control regions exhibit clearly different synergy statistics.
+- Local synergy hotspots are now quantified not only by peak value, but also by area and connectivity.
+- Hotspot regions and control regions differ not only in strength, but also in geometric structure.
 
 ## Project Status
 
