@@ -77,6 +77,7 @@ It currently presents a computational hypothesis supported by progressively stro
 | `scan_modes_v6.py` | Synergy index, ablation, incremental contribution |
 | `scan_modes_v7.py` | 2D mode-space mapping |
 | `scan_modes_v8.py` | Local hotspot refinement |
+| `scan_modes_v9.py` | Quantified hotspot geometry: area, peaks, connected components, edge profiles |
 
 ---
 
